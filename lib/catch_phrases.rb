@@ -16,6 +16,6 @@ def link
 end
 
 def all_phrases 
-  combined = mario + " " + toadstool + " " + link
+  combined = mario + toadstool +  link
   puts combined
 end
