@@ -14,3 +14,8 @@ def link
   catchPhrase = "It's Dangerous To Go Alone! Take This."
   puts catchPhrase
 end
+
+def all_phrases 
+  combined = mario + " " + toadstool + " " + link
+  puts combined
+end
